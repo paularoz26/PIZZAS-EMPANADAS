@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="./Style/style.css">
+       <title>PizzeriaRoz</title>
+  
+  
 </head>
 <body>
-    
+<header>
+    <nav>
+      <a href="index.html"><img src="./Assets/pizza-logo-cartoon-this-logo-is-highly-suitable-for-any-pizza-related-restaurant-fast-food-delivery-bistro-catering-and-italian-food-related-businesses-vector.jpg" id="logo"alt="logo">
+      </a><div>
+        <a href="./pages/login.html">Login</a>
+        <a href="./pages/pedido.html"><img src="./Assets/2453.png" alt="delivery"><span id="cantidad-pedido">0</span></a>
+       
+     </div>
+    </nav>
+</header>
+<main>
+    <div>
+    <h1 class="Titulo" id="titulo_principal">PizzeriaRoz</h1>
+  
+
+<section id="productos-container"></section>
+</main>
+<footer>
+    <p class="footer" id="footer_fin">_________________________________________________________________________________________</p>
+</footer>
+<section class="pie-pagina">
+    <div class="container-pie">
+    <div class="footer-pie">
+<article class="footer-redes">
+    <h3>Ubicacion;</h3>
+    <p>Almagro, Medrano 1000 CABA</p>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.970524825323!2d-58.438763500094026!3d-34.598025650941025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7cd8404f4f%3A0x887a244d661b4db6!2sAv.%20Medrano%201000%2C%20C1179%20CABA!5e0!3m2!1ses-419!2sar!4v1696940408530!5m2!1ses-419!2sar" width="200" height="200"></iframe></a>
+    </article>
+    <article class="footer-redes">
+        <h3>Contactanos;</h3>
+        <label form="nombre">Nombre:</label><br>
+    <input required type="nombre"class="form-control" name="nombre" id="nombre">
+    <div class="contact-t"><br>
+          <section class="contac-grupo">
+           <label form="mensaje">Mensaje:</label><br>
+           <textarea required name="message" class="form-control"></textarea></div>
+        <button type="submit">ENVIAR</button>
+    </article>
+ 
+
+   <section class="footer-redes">
+    <h3>Nuestras Redes;</h3>
+    <article class="redes-sociales">
+    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook" style="font-size:40px";></i></a> 
+    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram" style="font-size:40px"; ></i></a>
+    <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp" style="font-size:40px"; ></i></a>
+    </article> 
+   </section>
+    </div>
+    </div>
+</section>
+  
+<p class="footer" id="footer_fin">2024 PizzeriaRoz</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="sweetalert2.min.js"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+<script src="./Scripts/pizza.js"></script> 
+<script src="./Scripts/index.js"defer></script>  
+<script src="./Scripts/funciones.js"defer></script> 
 </body>
 </html>
