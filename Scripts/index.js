@@ -306,7 +306,7 @@ const tiempo=setInterval(()=>{
   Toastify({
     text: "SUMANDO AL CARRITO",
     duration: 3000,
-    destination:"file:///C:/Users/paual/OneDrive/Escritorio/PIZZERIA-ROZ/pages/pedido.html" ,
+    destination:"file:///C:/Users/paual/OneDrive/Escritorio/PIZZERIA-ROZ/Pages/pedido.html" ,
     newWindow: true,
     close: true,
     gravity: "top", 
