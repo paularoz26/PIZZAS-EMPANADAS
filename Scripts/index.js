@@ -319,3 +319,21 @@ const tiempo=setInterval(()=>{
   }).showToast();
 
  })
+
+ const totales=document.querySelector("#unidades")
+ totales.addEventListener("click",()=>{
+  Toastify({
+    text: " AL CARRITO",
+    duration: 3000,
+    destination:"file:///C:/Users/paual/OneDrive/Escritorio/pizzas-empanadas/Pages/pedido.html" ,
+    newWindow: true,
+    close: true,
+    gravity: "top", 
+    position: "left", 
+    stopOnFocus: true, 
+    style: {
+      background: "pink",
+    },
+    onClick: function(){} 
+  }).showToast();
+})
