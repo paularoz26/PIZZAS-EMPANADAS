@@ -44,11 +44,7 @@ a{
 }
 
 
-a:hover{
-color:red;
-font-weight:80px;
-background-color: rgb(241, 241, 135);
-}
+
 header nav{
     display: flex;
     justify-content:space-between;
@@ -265,4 +261,9 @@ justify-content: center;
         margin:15;
         border-radius:20px;
         margin-top:10px;
+    }
+    .whatsapp1{
+        border-radius:10px 10px 10px 10px;
+
+
     }
