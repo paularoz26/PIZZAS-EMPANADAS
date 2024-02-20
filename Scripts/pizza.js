@@ -84,7 +84,7 @@ const pizzas=[
     {
         id:14,
         nombre:"Empanada De Humita.",
-        img:"../assetsh.jpg",
+        img:"./assets/h.jpg",
         precio:800,
     },
     {
