@@ -6,7 +6,7 @@ function crearPedidos(productos){
         nuevaPizza.classList="crear-pedidos";
 nuevaPizza.innerHTML=
       `<p>N°${producto.id}</p>
-      <img src=${producto.img}>
+      <img src=${producto.img}></img>
       <h1>${producto.nombre}</h1>
       <p>$${producto.precio}</p>
       <button>Agregar al carrito</buuton>
