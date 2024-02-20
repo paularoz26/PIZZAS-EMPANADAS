@@ -6,7 +6,7 @@ function crearPedidos(productos){
         nuevaPizza.classList="crear-pedidos";
 nuevaPizza.innerHTML=
       `<p>N°${producto.id}</p>
-      <img src=${producto.img}></img>
+      <img src=${producto.img}"></img>
       <h1>${producto.nombre}</h1>
       <p>$${producto.precio}</p>
       <button>Agregar al carrito</buuton>
@@ -304,16 +304,16 @@ const tiempo=setInterval(()=>{
  const productosContainer=document.querySelector("#productos-container")
  productosContainer.addEventListener("click",()=>{
   Toastify({
-    text: "SUMANDO AL CARRITO",
-    duration: 3000,
+    text:"SUMANDO AL CARRITO",
+    duration:3000,
     destination:"file:///C:/Users/paual/OneDrive/Escritorio/pizzas-empanadas/Pages/pedido.html" ,
-    newWindow: true,
-    close: true,
-    gravity: "top", 
-    position: "left", 
-    stopOnFocus: true, 
-    style: {
-      background: "pink",
+    newWindow:true,
+    close:true,
+    gravity:"top", 
+    position:"left", 
+    stopOnFocus:true, 
+    style:{
+      background:"pink",
     },
     onClick: function(){} 
   }).showToast();
