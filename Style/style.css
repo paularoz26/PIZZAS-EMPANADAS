@@ -257,3 +257,12 @@ justify-content: center;
     .footer-redes{
         padding:30px;
     }
+
+    .menu-fixed{
+        position:fixed;
+        right:0;
+        bottom:0;
+        margin:15;
+        border-radius:30px;
+        margin-top:10px;
+    }
