@@ -153,7 +153,7 @@ let usuario=""
 Swal.fire({
     title: "Forma de pago",
     text: "Solo; EFECTIVO - MERCADO LIBRE.",
-    imageUrl: "../assets/199509741_788856571814856_7448139025641522081_n.jpg",
+    imageUrl: "./assets/199509741_788856571814856_7448139025641522081_n.jpg",
     imageWidth: 400,
     imageHeight: 200,
     position:"center",
