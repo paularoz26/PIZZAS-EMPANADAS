@@ -4,6 +4,7 @@
 >Menu Disponible... a la vista, con precios actuales..
 >Si queres saber de Promos...Puedes registrarte para saber mas!!
 >Aceptamos cualquier tipo de consulta.. no duden en escribirnos!
+>LOGIN: paula (Contraseñ----> raton)
 
 ##Profesor:
 - Daniel Villajuan.
