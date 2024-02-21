@@ -38,12 +38,7 @@ a{
     border-radius:5px;
     cursor:pointer;
     font-family: Arial, Helvetica, sans-serif;
-  
-    
-
 }
-
-
 
 header nav{
     display: flex;
@@ -52,7 +47,7 @@ header nav{
 }
 
 #logo{
-  height:55px;
+  height:70px;
   border-radius:50px;
 
 }
@@ -66,7 +61,7 @@ header nav div{display:flex;
 
 
 header nav img{
-    height:40px;
+    height:75px;
 }
 
 #pedidos{
@@ -76,7 +71,7 @@ header nav img{
 line-height:20px;
   text-align: center;
    display:inline-block;
-   border-radius:20px;
+   border-radius:100%;
    position: absolute;
 }
 

@@ -161,7 +161,7 @@ ________________________________________________
    <label for="fechaRegistrado">Fecha Registrado:</label><br>
    <input type="text" id="fechaRegistrado" placeholder="Ingresar fecha" required><br>
    </fieldset><br>
-   <button type="submit">ENVIAR</button>
+   <button type="submit">REGISTRAR</button>
    </form>
    </main>
 
